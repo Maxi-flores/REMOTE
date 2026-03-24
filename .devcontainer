@@ -1,9 +1,10 @@
 {
-  "name": "Cloud Desktop",
+  "name": "Cloud Desktop with Tailscale",
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {
       "password": "vscode"
-    }
+    },
+    "ghcr.io/tailscale/codespace/tailscale:1": {}
   },
   "forwardPorts": [6080]
 }
